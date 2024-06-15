@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";
 import { GlobalStyle } from "@/styles/global";
 import { Container } from "@/styles/pages/app";
@@ -18,6 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Header />
       <Container>
         <Component {...pageProps} />
+        <Footer />
       </Container>
       <GlobalStyle />
     </ThemeProvider>

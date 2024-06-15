@@ -26,6 +26,11 @@ export const typography = {
       font-size: 1rem;
       font-weight: normal;
       line-height: 1.5;
-    `
+    `,
+    textSM: css`
+      font-size: 0.75rem;
+      font-weight: normal;
+      line-height: 1.2;
+  `
   }
 }
