@@ -1,12 +1,19 @@
-import Image from 'next/image';
-import lacreiLogo from '../assets/header-logo-lacrei.svg'
-
+import { MainContainer } from "@/styles/index";
+import { useEffect } from "react";
 
 export default function Home() {
+  const setTitle = () => {
+    document.title = 'Lacrei Saúde';
+  };
+
+  useEffect(() => {
+    setTitle();
+  });
   return (
-    <div>
+    <MainContainer>
+      
       <h1>Hello, world</h1>
-      <Image src={lacreiLogo} alt="Logo da Lacrei Saúde" />
-    </div>
+      
+    </MainContainer>
   );
 }
