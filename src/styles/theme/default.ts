@@ -6,6 +6,8 @@ export const defaultTheme = {
       'accent-base': '#018762',
       'accent-dark': '#007756',
       'text-body': '#2d2d2d',
-      'text-headline': '#131313'      
+      'text-headline': '#131313',
+      'text-helper': '#404040',
+      'default-light': '#cfcfcf'      
   }
 }
