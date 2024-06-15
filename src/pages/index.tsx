@@ -1,4 +1,4 @@
-import { MainContainer } from "@/styles/index";
+import { MainContainer } from "@/styles/pages/index";
 import { useEffect } from "react";
 
 export default function Home() {
