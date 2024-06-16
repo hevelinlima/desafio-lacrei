@@ -22,7 +22,7 @@ export function Footer(){
             </Link>
           </div>
         </LogoFooter>
-        <Link className="link-footer" href={'/pacientes'} >Quem somos</Link>
+        <Link className="link-footer" href={'/quemsomos'} >Quem somos</Link>
         <Link className="link-footer" href={'/profissionais'}>Profissionais</Link>
       </FooterContainer>
       <ExternalFooter>

@@ -11,7 +11,7 @@ export default function Header(){
         <Image src={lacreiLogo} alt="Logo da Lacrei Saúde" />
       </Link>
       <ContentHeader>
-        <Link href="/pacientes">Quem somos</Link>
+        <Link href="/quemsomos">Quem somos</Link>
         <Link href="/profissionais">Ajuda</Link>
       </ContentHeader>
     </HeaderContainer>

@@ -1,4 +1,4 @@
-import { AbouSection, HeroContainer, HeroContent, MainContainer, SectionContent } from "@/styles/pages/index";
+import { AbouSection, Button, HeroContainer, HeroContent, MainContainer, SectionContent } from "@/styles/pages/index";
 import Image from "next/image";
 import { useEffect } from "react";
 import heroImg from "../assets/image-hero.svg";
@@ -20,6 +20,7 @@ export default function Home() {
           na Lacrei Saúde!</h1>
           <p>Conectamos pessoas <span>LGBTQIAPN+</span>
           com profissionais da saúde qualificados, proporcionando experiências de cuidado seguras e inclusivas.</p>
+          <Button href="https://lacreisaude.com.br/" >Conhecer</Button>
         </HeroContent>
         <Image src={heroImg} alt="" />
       </HeroContainer>

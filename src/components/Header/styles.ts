@@ -2,8 +2,7 @@ import { typography } from "@/styles/typography";
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-  
-  padding: 2.5rem 6.5rem;
+  padding: 1.75rem 7rem;
   
   display: flex;
   align-items: center;
@@ -13,10 +12,20 @@ export const HeaderContainer = styled.header`
 `
 
 export const ContentHeader = styled.div`
+  display: flex;
+  gap: 2rem;
   a{
     text-decoration: none;
+    padding: 0.5rem 1.5rem;
+
+    border-radius: 4px;
     color: ${(props)=>props.theme.colors["accent-dark"]};
     ${typography.fonts.textXL};
     font-weight: bold;
+  }
+  a:hover{
+    color: ${(props)=>props.theme.colors.default};
+    background-color: ${(props)=>props.theme.colors["accent-dark"]};
+    transition: all 0.2s ease-in-out;
   }
 `

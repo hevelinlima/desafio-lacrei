@@ -18,7 +18,6 @@ export const HeroContainer = styled.div`
     height: 20rem;
     width: auto;
   }
- 
 `;
 
 export const HeroContent = styled.div`
@@ -77,5 +76,26 @@ export const SectionContent = styled.div`
   p{
     ${typography.fonts.textXL};
     color: ${(props)=>props.theme.colors['text-helper']};
+  }
+`
+
+export const Button = styled.a`
+  max-width: 15rem;
+  padding: 0.5rem 2.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+
+  display: flex;
+  
+  justify-content: center;
+
+  background-color: ${(props)=>props.theme.colors['accent-base']};
+  color: ${(props)=>props.theme.colors.default};
+  ${typography.fonts.textXL};
+  font-weight: bold;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.5);
+
+  &:hover{
+    background-color: ${(props)=>props.theme.colors['accent-dark']};
   }
 `
