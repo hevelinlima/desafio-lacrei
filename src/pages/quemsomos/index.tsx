@@ -1,4 +1,4 @@
-import { AboutUsContainer, AboutUsContent } from "./styles";
+import { AboutUsContainer, AboutUsContent } from "../../styles/pages/quemsomos";
 import aboutUsImg from "../../assets/about-us-image.jpg"
 import Image from "next/image";
 

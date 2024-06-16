@@ -12,7 +12,7 @@ export default function Header(){
       </Link>
       <ContentHeader>
         <Link href="/quemsomos">Quem somos</Link>
-        <Link href="/profissionais">Ajuda</Link>
+        <Link href="/ajuda">Colaborar</Link>
       </ContentHeader>
     </HeaderContainer>
   )

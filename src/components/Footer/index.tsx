@@ -23,7 +23,7 @@ export function Footer(){
           </div>
         </LogoFooter>
         <Link className="link-footer" href={'/quemsomos'} >Quem somos</Link>
-        <Link className="link-footer" href={'/profissionais'}>Profissionais</Link>
+        <Link className="link-footer" href={'/ajuda'}>Colaborar</Link>
       </FooterContainer>
       <ExternalFooter>
         <p>Copyright © 2024 Lacrei. All rights reserved.</p>
