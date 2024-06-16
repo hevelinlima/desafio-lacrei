@@ -9,6 +9,10 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
 
   background: ${(props)=>props.theme.colors.highlight};
+
+  @media only screen and (max-width: 768px) {
+    padding: 2rem;
+  }
 `
 
 export const ContentHeader = styled.div`
@@ -27,5 +31,10 @@ export const ContentHeader = styled.div`
     color: ${(props)=>props.theme.colors.default};
     background-color: ${(props)=>props.theme.colors["accent-dark"]};
     transition: all 0.2s ease-in-out;
+  }
+  @media only screen and (max-width: 768px) {
+    a:first-child{
+      display: none;
+    }
   }
 `

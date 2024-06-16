@@ -12,6 +12,11 @@ export const AboutUsContainer = styled.div`
 
     border-radius: 16px;
   }
+  @media only screen and (max-width: 768px) {
+    img{
+      display: none;
+    }
+  }
 `
 export const AboutUsContent = styled.div`
   display: flex;

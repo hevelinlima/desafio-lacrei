@@ -5,13 +5,19 @@ export const ColabContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 80vh;
   gap: 5rem;
 
   img{
-    height: 20rem;
+    max-height: 20rem;
     width: auto;
 
     border-radius: 16px;
+  }
+  @media only screen and (max-width: 768px) {
+    img{
+      display: none;
+    }
   }
 `
 

@@ -18,6 +18,11 @@ export const HeroContainer = styled.div`
     height: 20rem;
     width: auto;
   }
+  @media only screen and (max-width: 768px) {
+    img{
+      display: none;
+    }
+  }
 `;
 
 export const HeroContent = styled.div`
@@ -50,11 +55,17 @@ export const AbouSection = styled.section`
     width: auto;
     border-radius: 6px;
   }
+
+  @media only screen and (max-width: 768px) {
+   img{
+    display: none;
+   }
+  }
 ` 
 
 export const SectionContent = styled.div`
-  height: 22rem;
-  width: 31rem;
+  max-height: 30rem;
+  max-width: 31rem;
   padding: 1.75rem;
   border-radius: 8px;
   margin-left: -2rem;
@@ -69,13 +80,17 @@ export const SectionContent = styled.div`
     color: ${(props)=>props.theme.colors['text-body']};
   }
   div{
-    width: 4rem;
+    max-width: 4rem;
     border: 1px solid ${(props)=>props.theme.colors['accent-dark']};
     margin: 1rem 0;
   }
   p{
     ${typography.fonts.textXL};
     color: ${(props)=>props.theme.colors['text-helper']};
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin-left: 0;
   }
 `
 

@@ -25,6 +25,11 @@ export const FooterContainer = styled.footer`
     cursor: pointer;
     border-bottom: 1px solid ${(props)=>props.theme.colors["text-helper"]};
   }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 `
 
 export const LogoFooter = styled.div`
@@ -38,6 +43,12 @@ export const LogoFooter = styled.div`
     }
     a:hover{
       color: ${(props)=>props.theme.colors["accent-medium"]};
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    div{
+      align-items: center;
+      justify-content: center;
     }
   }
 `
