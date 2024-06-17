@@ -8,8 +8,9 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: space-between;
 
-  background: ${(props)=>props.theme.colors.highlight};
+  /* background: ${(props)=>props.theme.colors.highlight}; */
 
+  background: linear-gradient(to bottom, ${(props)=>props.theme.colors["emerald-10"]} , white);
   @media only screen and (max-width: 768px) {
     padding: 2rem;
   }
