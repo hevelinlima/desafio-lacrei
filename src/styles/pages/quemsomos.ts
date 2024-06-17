@@ -9,7 +9,6 @@ export const AboutUsContainer = styled.div`
   img{
     height: 30rem;
     width: auto;
-
     border-radius: 16px;
   }
   @media only screen and (max-width: 768px) {

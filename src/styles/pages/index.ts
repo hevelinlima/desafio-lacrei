@@ -4,7 +4,6 @@ import { typography } from '../typography';
 export const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
-
   align-items: center;
 `
 
@@ -14,6 +13,7 @@ export const HeroContainer = styled.div`
   justify-content: center;
   margin: 4rem 0;
   gap: 3rem;
+  
   img{
     height: 20rem;
     width: auto;
