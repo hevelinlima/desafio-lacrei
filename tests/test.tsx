@@ -1,12 +1,10 @@
-import Home from '@/pages'
+import { Button } from '../src/components/Button'
 import {render, screen} from '@testing-library/react'
 
-describe('<Home  />', () =>{
-  it('should render index page', () => {
-    render(<Home />)
+describe('Button component', () =>{
+  it('should render children correctly', () => {
+    render(<Button>Colaborar</Button>)
 
-    expect(
-      screen.getByRole('heading', { name: /Olá, você está na Lacrei Saúde/i }))
-      .toBeInTheDocument()
+    expect(screen.getByText('Colaborar')).toBeInTheDocument();
   })
 })
