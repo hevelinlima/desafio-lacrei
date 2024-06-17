@@ -3,6 +3,8 @@ import Image from "next/image";
 import { useEffect } from "react";
 import heroImg from "../assets/image-hero.svg";
 import sectionImg from "../assets/section-image.jpg";
+import * as Dialog from '@radix-ui/react-dialog'
+import { Modal } from "@/components/Modal";
 
 export default function Home() {
   const setTitle = () => {
@@ -20,7 +22,12 @@ export default function Home() {
           na Lacrei Saúde!</h1>
           <p>Conectamos pessoas <span>LGBTQIAPN+</span>
           com profissionais da saúde qualificados, proporcionando experiências de cuidado seguras e inclusivas.</p>
-          <Button href="https://lacreisaude.com.br/" >Conhecer</Button>
+          <Dialog.Root>
+            <Dialog.Trigger asChild>
+              <Button>Conhecer</Button>
+            </Dialog.Trigger>
+            <Modal />
+          </Dialog.Root>
         </HeroContent>
         <Image src={heroImg} alt="" />
       </HeroContainer>

@@ -101,7 +101,6 @@ export const Button = styled.a`
   text-decoration: none;
 
   display: flex;
-  
   justify-content: center;
 
   background-color: ${(props)=>props.theme.colors['accent-base']};
