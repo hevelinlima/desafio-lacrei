@@ -3,8 +3,8 @@
 <br>
 
 <p align="center">
-  <img alt="Pré-vizualização do desafio Lacrei" src=".github/desafio-lacrei-preview01.png" width="100%">
-  <img alt="Pré-vizualização do desafio Lacrei" src=".github/desafio-lacrei-preview02.png" width="100%">
+  <img alt="Pré-vizualização do desafio Lacrei (para desktop)" src=".github/desafio-lacrei-preview02.gif" height="275px">
+  <img alt="Pré-vizualização do desafio Lacrei (para mobile)" src=".github/desafio-lacrei-preview01.png" height="275px">
 </p>
 <p align="center">
   <em>Confira o resultado do app em: https://desafio-lacrei-hevelinlima.vercel.app/</em>
